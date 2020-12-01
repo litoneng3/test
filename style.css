@@ -1,0 +1,362 @@
+body{ 
+margin: 0;
+padding: 0;
+ }
+ .header-menu{
+ 	 background: black;
+ 	 padding: 16px 0;
+ 	 box-sizing: border-box;
+ 	 position: fixed;
+ 	 width: 100%;
+ 	 z-index: 99;
+
+ }
+ .header-menu-left{
+ 	width: 41%;
+ 	float: left;
+ 	margin-top: -8px;
+ }
+.header-menu-left div{
+	width: 16%;
+	float: left;
+}
+
+.header-menu-left a{
+	background: black;
+	color: #fff;
+	text-decoration: none;
+	padding: 16px 34px;
+	box-sizing: border-box;
+}
+.header-menu-left a:hover{
+	background: #fff;
+	color: black;
+}
+
+.logo a:hover{
+	background: gray;
+}
+.logo a{
+	background-color: #009688;
+}
+
+ .header-menu-right{
+ 	width: 4%;
+ 	float: right;
+ }
+ 
+.picture{
+	background-image: url(sailboat.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 564px;
+	background-position: center;
+	position: relative;
+}
+
+
+.button a{
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 200px;
+	font-family: arial;
+	position: absolute;
+	bottom: 0;
+	font-size: 26px;
+	background: #000;
+	color: #fff;
+	padding: 10px 20px;
+	margin-bottom: 8px;
+	margin-left: 10px;
+	
+}
+.button a:hover{
+	background-color: #009688;
+}
+.team{
+	padding: 45px 0;
+}
+.team-head{
+	text-align: center;
+}
+.team-members div{
+	width: 22%;
+	float: left;
+	margin:1.5%;
+	text-align: center;
+}
+.team-members img{
+	height: 167px;
+	width: 167px;
+	border-radius: 50%;
+}
+.work{
+	background: black;
+	color: #fff;
+	padding: 62px 0;
+
+}
+ .work div{
+ 	width: 22%;
+ 	float: left;
+ 	margin: 1.4%;
+ }
+
+.work img{
+	width:100%;
+}
+
+.customer1{
+	border: 1px solid #ddd;
+	background: #fff;
+	color: black;
+}
+.our-work h1{
+	font-weight: 300;
+}
+.our-work{
+	font-family: Verdana,sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+.customer1 h1, .customer1 h3, .customer1 p{
+	margin-left: 5px;
+}
+
+.work ul{
+	list-style: none;
+}
+.work li{
+	line-height: 1.9;
+	font-size: 18px;
+	margin-left: 10px;
+}
+
+
+.pricing-plans{
+	text-align: center;
+	padding: 84px 0;
+}
+.pricing-plans-heading {
+	margin-bottom: 84px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+.pricing-plans-table div{
+	width: 32%;
+	float: left;
+	margin: .5%;
+	border: 1px solid #ddd;
+}
+.pricing-plans-table ul{
+	list-style: none;
+
+}
+.pricing-plans-table li{
+	width:100%;
+	padding: 21px 0;
+	border-bottom: 1px solid #ddd;
+	font-size: 19px;
+}
+.pricing-plans-table .padding{
+	padding: 42px 0;
+}
+
+.pricing-plans-table .Basic{
+	padding: 36px 0;
+	color: #fff !important;
+	background-color: #000 !important;
+}
+
+.pricing-plans-table .Pro{
+	padding: 36px 0;
+	color: #fff !important;
+	background-color: #616161 !important;
+}
+.pricing-plans-table .Premium{
+	padding: 36px 0;
+	color: #fff !important;
+	background-color: #000 !important;
+}
+.pricing-plans-table .Button{
+	padding: 40px 0;
+	color: #fff !important;
+	background-color: #f1f1f1 !important;
+}
+.pricing-plans-table a{
+	text-decoration: none;
+	color: #fff ;
+	background-color: #009688 ;
+	padding: 12px 24px !important;
+}
+
+
+.pricing-plans-table a:hover{
+	background: gray;
+	color: black;
+}
+.Contact{
+	background: #f0f0f0;
+	padding: 65px 0px;
+}
+.contact-us{
+	width: 40%;
+	float: left;
+	margin: 1%;
+}
+.contact-us h1{
+	margin-bottom: -12px;
+}
+.fas.fa-map-marker-alt {
+    font-size: 20px;
+    color: #009688;
+    letter-spacing: 1.7px;
+}
+
+.fas.fa-phone {
+    font-size: 20px;
+    color: #009688;
+    letter-spacing: 1.7px;
+}
+
+.fas.fa-envelope {
+    font-size: 20px;
+    color: #009688;
+    letter-spacing: 1.7px;
+}
+.contact-us p{
+	font-size: 17px;
+}
+
+.contact-us span{
+	font-size: 17px;
+}
+.contact-form{
+	width: 56%;
+	float: left;
+
+}
+.w3-round{
+	width: 145px;
+	border: 3px solid #009688;
+	margin-left: 0; 
+}
+.w-round{
+	width:805px;
+	border: 1px solid gray;
+	margin-left: 20px;
+}
+
+.contact-form p{
+	line-height: 3;
+	margin-left: 20px;
+	font-size: 18px;
+}
+.contact-form input{
+	margin-left: 20px;
+	height:10px;
+	width: 10px;
+}
+.contact-form{
+	background: #fff;
+	padding-bottom: 15px;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.contact-form a{
+	text-decoration: none;
+	color: #fff;
+	background: black;
+	padding: 10px 12px;
+}
+.checker{
+	width: 12%;
+	float: left;
+}
+.link{
+	width: 10%;
+	float: right;
+}
+.traffic{
+	margin-bottom: -4px;
+}
+.traffic img{
+	width: 100%;
+}
+
+.footer{
+	text-align: center;
+}
+
+.fab.fa-facebook-f {
+    font-size: 22px;
+}
+
+.fab.fa-twitter {
+    font-size: 22px;
+}
+.fab.fa-google-plus-g {
+    font-size: 22px;
+}
+.fab.fa-instagram {
+    font-size: 22px;
+}
+.fab.fa-linkedin-in {
+    font-size: 22px;
+}
+
+.footer {
+	background: black;
+	color: #fff;
+	padding: 35px;
+	font-family: arial;
+	margin-top: 0;
+}
+.footer h1{
+	font-size: 23px;
+	font-weight: 400;
+}
+.footer a{
+	background: #009688;
+	padding: 10px 10px;
+	margin: 2px;
+	color: #fff;
+	box-sizing: border-box;
+}
+
+.footer a:hover{
+	background: gray;
+	color: black;
+}
+.footer-p{
+	margin: 25px;
+}
+.footer-p a{
+	background: none;
+	color: #fff;
+	padding: 0;
+}
+.footer-p a:hover{
+	background: none;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+ .clearfix:after{
+	content:"";
+	clear:both;
+	display:block;
+	visibility:hidden;
+}
